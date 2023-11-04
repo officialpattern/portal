@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--========= FAVICON =========-->
+  <link rel="shortcut icon" href="assets/img/tab.png" type="image/x-icon">
+  <!--========= REMIX ICONS =========-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <!--========= CSS =========-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!--========= MAIN JS =========-->
+  <script src="assets/js/main.js" defer></script>
+  <title>Pattern | Official Page</title>
+</head>
+<body>
+  <!--========= HEADER =========-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="assets/img/Future logo of PATTERN.png" alt="">
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#specs" class="nav__link">Highlights</a>
+          </li>
+          <li class="nav__item">
+            <a href="#case" class="nav__link">Newsletter</a>
+          </li>
+          <li class="nav__item">
+            <a href="#products" class="nav__link">Database</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-function-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!--========= HOME =========-->
+    <section class="home section" id="home">                       
+      <div class="home__container container grid">
+        <div>
+          <img src="assets/img/first.png" alt="" class="home__img">
+        </div>
+        
+        <div class="home__data">
+          <div class="home__header">
+            <h1 class="home__title">PATTERN</h1>
+            <h2 class="home__subtitle">Redefining</h2>
+          </div>
+  
+          <div class="home__footer">
+            <h3 class="home__title-description">We believe</h3>
+            <p class="home__description">
+              The key to unlocking the future is often hidden within the pattern of the past.
+            </p>
+            <a href="https://twitter.com/_Stock_Patterns" class="button button--flex">
+              <span class="button--flex">
+                 Start your Journey
+              </span>
+              <span class="home__price"><i class="ri-user-star-fill"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--========= SPONSORS =========-->
+    <!-- <section class="sponsor section">
+      <div class="sponsor__container container grid">
+        <img src="assets/img/sponsor1.png" alt="" class="sponsor__img">
+        <img src="assets/img/sponsor2.png" alt="" class="sponsor__img">
+        <img src="assets/img/sponsor3.png" alt="" class="sponsor__img">
+        <img src="assets/img/sponsor4.png" alt="" class="sponsor__img">
+      </div>
+    </section> -->
+
+    <!--========= SPECS =========-->
+    <section class="specs section grid" id="specs">
+      <h2 class="section__title section__title-gradient">Highlights</h2>
+
+      <div class="specs__container container grid">
+        <div class="specs__content grid">
+          <div class="specs__data">
+            <i class="ri-award-fill"></i>
+            <h3 class="specs__title">Clear Charts</h3>
+            <span class="specs__subtitle">Marking the pattern.</span>
+          </div>
+
+          <div class="specs__data">
+            <i class="ri-line-chart-line"></i>
+            <h3 class="specs__title">Price Action</h3>
+            <span class="specs__subtitle">Movement of price <br> over time.</span>
+          </div>
+
+          <div class="specs__data">
+            <i class="ri-time-line"></i>
+            <h3 class="specs__title">Time Frame</h3>
+            <span class="specs__subtitle">Exploring Daily, <br> Weekly and Monthly.</span>
+          </div>
+
+          <div class="specs__data">
+            <i class="ri-macbook-line"></i>
+            <h3 class="specs__title">Access Anywhere</h3>
+            <span class="specs__subtitle">Mobile <br> and Desktop </span>
+          </div>
+        </div>
+
+        <div>
+          <img src="assets/img/spec.png" alt="" class="specs__img">
+        </div>
+      </div>
+    </section>
+
+    <!--========= CASE =========-->
+    <section class="case section grid" id="case">
+      <div class="container">
+        <h2 class="section__title section__title-gradient">NewsLetter</h2>
+
+        <div class="case__container container grid">
+          <div>
+            <img src="assets/img/mail.png" alt="" class="case__img">
+          </div>
+
+          <div class="case__data">
+            <p class="case__description">Uncover the Power of Patterns: Your Complimentary Pattern Newsletter – Where History Holds the Key to Tomorrow's Opportunities!
+              <br><br>
+              A weekly Newsletter will help you stay up to date with upcoming good times.
+            </p>
+  
+            <button  class="button button--flex" id="more-info-button">
+              <i class="ri-information-line button__icon" ></i> More info
+            </button>
+          </div>
+        </div>       
+      </div>
+    </section>
+
+    <!--========= MORE INFO BOX =========-->
+      
+    <div id="hover-box" class="hidden">
+
+      <button id="close-button" class="close-button">
+          <i class="ri-close-circle-line"></i>
+      </button>
+
+       <div class="content-container">
+
+          <div class="column left-column">
+            <!-- Left column content goes here -->
+          <!-- Content for your hover box -->
+          <p>
+            Did you see the charts on our <b>Twitter page</b>?<br><br>
+
+            You liked them ? Cool ! Let's move a level up.
+            <br>
+            Once we have identified the pattern, now it's time to do systematic analysis on the same.
+            Now, what does this analysis mean.
+            <br><br>
+            <b>Price action</b>, is the movement of a security's price over time, which forms the basis for a securities price chart and makes technical analysis possible.<br>
+            This movement of price forms "Support" and "Resistance".
+            These support and resistance level is formed when price reverses and changes direction, leaving behind a peak or trough in the market.
+            <br><br>
+            The <b>pattern</b> which we have found must be saying something? What does the pattern say in different conditions?
+            <br><br>
+            What the candlesticks, forming on the edge of patterns,<br>are saying ?<br>
+            What the <b>Volume bars</b> are saying ?<br>
+            <br>
+            Combining all these factors, a good entry and exit can be properly planned.
+            <br><br>
+            <b>Opt for our Complementary Newsletter, in which we share detailed analysis, without any cost.</b>
+          </p>
+          </div>
+
+       </div>
+        
+   
+    </div>
+
+    <!--========= DISCOUNT =========-->
+    <section class="discount section">
+      <div class="discount__container container grid">
+        <div class="discount__animate">
+          <h2 class="discount__title">Dive into the world <br>of patterns</h2>
+          <p class="discount__description">Get it now, without any cost !</p>
+          <a href="mailto:patterns.socialaccess@gmail.com?subject=Subscribe&body=Please subscribe me to your newsletter" class="button button--flex">
+            <i class="ri-mail-send-line"></i> One Click Away
+          </a>
+        </div>
+
+        <img src="assets/img/gmail.png" alt="" class="discount__img">
+      </div>
+    </section>
+
+    <!--========= PRODUCTS =========-->
+    <section class="products section" id="products">
+      <h2 class="section__title section__title-gradient products__line">
+        Choose <br> Your Move
+      </h2>
+
+      <div class="products__container container grid">
+
+        <article class="products__card">
+          <div class="products__content">
+            <img src="/assets/img/repco.png" alt="" class="products__img">
+            <h3 class="products__title">REPCO HOME</h3>
+            <span class="products__price">Daily Interval</span>
+
+            <button class="button button--flex products__button more-info-icon1">
+              <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </div>
+        </article>
+        <div id="product-popup1">
+          <button id="close-product-popup1" class="close-button">×</button>
+          
+          <div class="content-container">
+
+            <div class="column left-column">
+              <!-- Left column content goes here -->
+            <!-- Content for your hover box -->
+            <p>
+            This is the chart of <b>REPCO HOME FIN LTD</b>.<br> <br>
+
+            This comes under Finance/Rental/Leasin sector.<br><br>
+
+            Look at the pattern it made, it's an <b>ascending triangular pattern</b>.<br><br>
+
+            Now, you must be thinking .. <b>why did we put this failed setup in the first place ?</b><br>
+            <b>It is to show you and remind you that not every trade you take, will go your way.</b><br><br>
+
+            This Pattern formation tells us the importance of trade rules .. which we all must follow.<br><br>
+
+            We shared this chart with our audience on <b>16th Oct 2023</b>, and luckily, on the very next day it gave a breakout.
+            <b>Let's do an paper trade analysis</b> on this for understanding purpose.<br><br>
+
+            The breakout candle looks very promising ...<br>
+            The expected entry should have been on this very breakout candle, but hold on ! .. not with all the capital. Suppose we have X Rs for this script, we would enter on the breakout day with 25% of the allocated capital (X).
+            Now, when the next candle forms, it unviel the momentum.<br>
+            As we can see, as soon as it gave breakout, the next day price retraced. This retracement of price is another oppurtunity to enter. So, let's enter with another 25 % of the same.
+            Now, what's the first thing we decide when we write our trade setup rule ? it's STOP LOSS.<br>
+            When, on second red candle we bought some quantity .. <br>
+            the nex day ..<br>
+            <b>OUR STOP LOSS HITS !</b><br><br>
+            But, what was our stop loss ? .. Like every other decision, it's upto the person. But we believe, it should be below the lower trend line of the pattern.
+            And you can see, on the third day, it broke the trend line during the session, though closed above it.
+            So, here we exit our trade. Cheers !<br><br>  
+            <b>The lesson is .. First, we should learn to protect our capital.</b>
+            </p>
+            </div>
+  
+          </div>
+          
+        </div>
+
+        <article class="products__card">
+          <div class="products__content">
+            <img src="/assets/img/linde.png" alt="" class="products__img">
+            <h3 class="products__title">LINDE INDIA</h3>
+            <span class="products__price">Week Interval</span>
+
+            <button class="button button--flex products__button  more-info-icon2">
+              <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </div>
+        </article>
+        <div id="product-popup2">
+          <button id="close-product-popup2" class="close-button">
+            <i class="ri-close-circle-line"></i>
+          </button>
+          <div class="content-container">
+
+            <div class="column left-column">
+              <!-- Left column content goes here -->
+            <!-- Content for your hover box -->
+            <p>
+              This is the chart of <b>LINDE INDIA LTD</b>.<br><br>
+
+              This comes under <b>Processing industries/ Chemical</b>.<br><br>
+
+              Look at the beautiful pattern it has made.<br>
+
+              It's <b>Triangular pattern</b> as you can see .. with 4 supports on the lower trend line.<br><br>
+
+              If you have come after watching REPCO .. you must be feeling very amazed, we know that.<br><br>
+
+              This pattern has given around 70% returns in just a matter of 7 to 8 months.<br>
+
+              We shared this chart with our community on <b>16 Jan 2023</b> .. and on 13 Feb 2023 it started giving breakout. After almost a month.
+              <br>
+              If we do <b>paper trade analysis</b> on this pattern.
+              <br><br>
+              We would first define our <b>STOPLOSS</b>, which would be somewhere near the lower trendline zone.
+              Now, coming to the position, if we suppose, total amount of X allocated to this script.
+              We will put 25% of that amount on the very breakout candle itself.
+              When the price retrace in the next three/four weeks .. that's the time to put another 25% of the capital.
+
+              After this, you can see the script made a 15% move from the initial position.
+
+              Now if you look at the chart closly .. there is another triangle pattern forming during the consolidation phase. This is a very potential area to keep an eye on.
+              We have also marked the lower trend line of the triangle, have a look.
+
+              At this point of time, we believe, we should ride the rally with our whole allocated amount (X).
+              as the rally continues .. we keep rising with it.
+
+              Now, during first week of Aug, 2023, this script again showed a little correction in the price.
+              Now, <b>question arises</b>, should we increase our allocation in this phase.
+
+              The answer, as usual depends on many conditions .. but broadly speaking, NO.
+              Because, til now the script has given around 40% move .. and there is a high chance of correction continuation.<br><br>
+
+              <b>So, what do we do here ?</b> <br>
+              We do partial booking of our profits here. Yes, neither fully booking out of fear .. nor, completely riding out of greed.
+              At this point of time we should book 75% of out holding of this script.<br><br>
+
+              So, this is another pattern in our books .. where we enjoy the rally ! <b>Cheers !</b><br>
+
+              and yes, those people who booked only 75% at that point of time, they may have rode the rally till the end.<br>
+              <br><br>
+              This has been a good trade and a learning of how to ride a rally.
+            </p>
+            </div>
+  
+          </div>
+        </div>
+
+        <article class="products__card">
+          <div class="products__content">
+            <img src="/assets/img/tata.png" alt="" class="products__img">
+            <h3 class="products__title">TATA MOTORS</h3>
+            <span class="products__price">Week Interval</span>
+
+            <button class="button button--flex products__button  more-info-icon3">
+              <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </div>
+        </article>
+        <div id="product-popup3">
+          <button id="close-product-popup3" class="close-button">
+            <i class="ri-close-circle-line"></i>
+          </button>
+          <div class="content-container">
+
+            <div class="column left-column">
+              <!-- Left column content goes here -->
+            <!-- Content for your hover box -->
+            <p>
+            This is one of the well known script .. <b>TATA MOTORS LTD</b>.<br><br>
+
+            The pattern we are seeing here is <b>triangle pattern</b>. <br>
+            In this pattern we have three supports on the lower trend line and three resistances on the upper trend line.
+            <br><br>
+            We shared this pattern on <b>06 Mar 2023</b> and after almost a month, on 10 Apr 2023 .. it gave a beautiful breakout.
+            <br><br>
+            Let's quickly start the <b>paper trader</b> analysis of this script!<br><br>
+
+            The breakout candle is formed based on <b>GAP UP</b> opening .. <br>
+            every individual has his/her own style and rules, we believe that we should take entry in this breakout candle with 25 % of allocated capital for this script.
+            <br>
+            So, if the allocated capital is X .. we should enter here with 25 % of X. <br>
+            <br><br>
+            Now, if you closly look at this rally, you will find after every big green candle there is a little correction candle.
+            But this is just one candle, which means just a week of correction.
+            <br><br>
+            So, the plan is simple ..<br>
+            During every correction week, we enter the rally with 25 % more.<br>
+            For example, on 22 May, it formed a red candle .. so we should enter more capital on that phase.
+            Now, if we keep doing this, we can catch a 30 % move in just matter of couple of months.<br>
+            This is not good .. this is too good !<br><br>
+
+            <b>Now, as you know, not being greedy we should start partially booking out position</b>.<br>
+            And when we do this .. we book 75 % of capital deployed and we are left with 25 %.<br>
+            With this amount we will ride the rest of the rally, if there is .. because if can see huge correction also, nobody can predict the markets!<br>
+            
+            As we have booked our partial profits, we have no fear of losing the profitability and also we might have chance to ride more.<br>
+            and when we go further in dates we see, TATA MOTORS again forming a triangle pattern.<br>
+            It gave breakout on 9th Oct candle and after that 2 red candles, which are showing price retracement.<br>
+
+            As of date, when we are sharing this chart with you, the price is retraced to more than 50% of breakout candle .. it can be a good start or a false breakout. <br>
+            Let's see what happen. But, we should do something to protect our capital.<br>
+            So, we will mark <b>stoploss</b>, which would be below the lower trend line of the triangle.<br><br>
+
+            This has been another good trade, just like LINDE INDIA. If you have not opened the card of it, you should see the move right now .. a beautiful rally.<br><br>
+
+            Anyways, stay tuned .. let's meet with the next <b>Pattern !!</b>
+            </p>
+            </div>
+  
+          </div>
+        </div>
+
+        <article class="products__card">
+          <div class="products__content">
+            <img src="/assets/img/sur.png" alt="" class="products__img">
+            <h3 class="products__title">SURYA ROSHNI</h3>
+            <span class="products__price">Week Interval</span>
+
+            <button class="button button--flex products__button  more-info-icon4">
+              <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </div>
+        </article>
+        <div id="product-popup4">
+          <button id="close-product-popup4" class="close-button">
+            <i class="ri-close-circle-line"></i>
+          </button>
+          <div class="column left-column">
+            <!-- Left column content goes here -->
+          <!-- Content for your hover box -->
+          <p>
+            This is the chart of <b>SURYA ROSHNI LTD</b>.<br><br>
+
+            This script has made a beautiful <b>Cup and Handle pattern</b>. <br><br>
+            
+            You see that upper horizontal line ? that's called a <b>resistance zone</b> and this script has faced it three times.<br><br>
+            
+            <b>We shared this pattern on 30 Aug 2023</b>.<br>
+            This is when the breakout candle started forming out.<br><br>
+            
+            If we start analysing the pattern, we will start with breakout candle.<br>
+            The breakout candle looks very promising ...<br>
+            and the follow up candle is the rally we see.<br><br>
+            
+            If we count from the breakout candle, <b>it's almost a 30 % move in two weeks</b>.<br><br>
+            
+            However, some individuals, according to their strategy prefers to enter the trade before the breakout.<br>
+            If we count from that phase .. <b>it's almost 40 % move we are seeing</b>.
+            <br><br>
+            Coming to next part of the rally, we see a good correction of price in next weeks.<br>
+            This is the part of the rally .. and it's generally seen as a second oppurtunity to participate in the rally.<br>
+            and as we can see, after this correction .. coming weeks has shown a good up move of 16 %.<br>
+            <br>
+            This was a little story regarding this script .. <b>hope you saw this pattern and participated in this rally</b>.<br><br>
+            
+            <b>Happy Jorney !!</b> <br><br>
+          </p>
+          </div>
+        </div>
+
+        <article class="products__card">
+          <div class="products__content">
+            <img src="/assets/img/gab.png" alt="" class="products__img">
+            <h3 class="products__title">GABRIEL INDIA</h3>
+            <span class="products__price">Long Interval</span>
+
+            <button class="button button--flex products__button  more-info-icon5">
+              <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </div>
+        </article>
+        <div id="product-popup5">
+          <button id="close-product-popup5" class="close-button">
+            <i class="ri-close-circle-line"></i>
+          </button>
+          <div class="column left-column">
+            <!-- Left column content goes here -->
+          <!-- Content for your hover box -->
+          <p>
+            This is the chart of <b>GABRIEL INDIA LTD</b>.<br><br>
+
+              This comes under <b>Producer Manufacturing : Auto Parts</b>.<br><br>
+              
+              You must be familiar with this pattern .. it's Cup and Handle pattern!<br><br>
+              
+              <b>Let us ask you once, were you able to identify it ?</b><br><br>
+              If you did, <b>Congratulations !</b> and <br><b>if you didn't .. no worries, We keep sharing such patterns for you.</b><br>
+            
+              We shared this pattern on <b>06 june 2023</b>.<br><br>
+              
+              Now if we start paper trade analysis on this,<br>
+              You will see there are two upper trend lines we made. These trend lines shows the upper resistance zones which it might face.<br>
+              
+              The first tilted line when broken, it's a sign of huge upside move.<br>
+              and this can be confirmed with the green breakout candle .. it's a proper green candlw with no wicks.<br>
+              
+              If we kepp track of the rally from it's beginning, it will turn out to be a 40% move already before the breakout.
+              So, after giving a breakout, it should have corrected a bit and prepared for it's further rally.
+              But it didn't .. it kept on rising. <br><br>
+              
+              
+              Now, one disclamer, do not build high hopes seeing this rally.<br>
+              <b>150 % in just a matter of 6 months is not a regular thing in market</b>, how a script will perform depends on many market conditions.<br><br>
+              
+              But, needless to say, it was a wonderfull rally.<br><br>
+              
+              <b>Cheers to those who rode it !</b> 
+          </p>
+          </div>
+        </div>
+
+        <article class="products__card">
+          <div class="products__content">
+            <img src="/assets/img/indram.png" alt="" class="products__img">
+            <h3 class="products__title">INDRA MEDCO</h3>
+            <span class="products__price">Week Interval</span>
+
+            <button class="button button--flex products__button  more-info-icon6">
+              <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </div>
+        </article>
+        <div id="product-popup6">
+          <button id="close-product-popup6" class="close-button">
+            <i class="ri-close-circle-line"></i>
+          </button>
+          <div class="column left-column">
+            <!-- Left column content goes here -->
+          <!-- Content for your hover box -->
+          <p>
+            Hey ! This is another pattern from our book.<br><br>
+
+          This is the chart of <b>INDRA MEDCO</b>.<br><br>
+
+          This comes under Health service sector.<br><br>
+
+          This is called <b>Cup and Handle pattern</b>. This script took <b>12 months</b> to form this beautiful pattern. <br><br>
+
+          We shared this script on <b>30 May 2023</b>, and it gave breakout during first week of July 2023.<br><br>
+
+          If you look closing at the pattern,  the breakout candle looks so promising.<br>
+          This script faced resistance three times on upper trend line and gave this beautiful breakout.<br><br>
+
+          There is a one thig to notice .. look at the 10th July candle.<br>
+          That huge wick brings in a second thought of correction.<br>
+          After this candle .. we can expect a correction but coming weeks were planning something else for us.<br><br>
+
+          After this, there is series of <b>GAP UP</b> candles, which accounts for almost 40 % of rally.<br><br>
+          <b>Cheers to those, who took benefit of this Pattern !!</b> <br><br>
+          </p>
+          </div>
+        </div>
+
+      </div>
+      
+    </section>
+
+
+  </main>
+
+  <!--========= FOOTER =========-->
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <a href="#" class="footer__logo">
+        <img src="11Future-logo-of-PATTERN.ico" alt="">
+      </a>
+
+      <div class="footer__content">
+        <h3 class="footer__title">What we do</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Basic Patterns</a>
+          </li>
+          <!-- <li>
+            <a href="#" class="footer__link"></a>
+          </li> -->
+          <li>
+            <a href="#" class="footer__link">NewsLetter</a>
+          </li>
+          <!-- <li>
+            <a href="#" class="footer__link">Accesories</a>
+          </li> -->
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Support</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="https://twitter.com/messages/compose?recipient_id=1692731153575268352" class="footer__link">Direct Message</a>
+          </li>
+          <li>
+            <a href="whatsapp://send?phone=917011283574" class="footer__link">Whatsapp</a>
+          </li>
+          <li>
+            <a href="tg://resolve?domain=stocks_pattern" class="footer__link">Telegram</a>
+          </li>
+          <!-- <li>
+            <a href="#" class="footer__link">Provides</a>
+          </li> -->
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <form action="" class="footer__form">
+          <input type="text" placeholder="Your Name" class="footer__input" id="emailInput">
+          <button class="button button--flex" id="subscribe-button">
+            <i class="ri-send-plane-line button__icon subscribe-button"></i>Contact
+          </button>
+        </form>
+
+        <div class="footer__social">
+          <a href="https://twitter.com/_Stock_Patterns" target="_blank" class="footer__social-link">
+            <i class="ri-twitter-line"></i>
+          </a>
+           
+            <a href="https://www.youtube.com/@Stock_Pattern" target="_blank" class="footer__social-link">
+              <i class="ri-youtube-line"></i>
+          </a>
+          <!--
+          <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+            <i class="ri-twitter-line"></i> 
+          </a> 
+          -->
+        </div>
+      </div>
+
+    </div>
+
+    <p class="footer__copy">
+      <a href="#" target="_blank" class="footer__copy-link">
+        &#169; All right reserved
+      </a>
+    </p>
+  </footer>
+
+  <!--========= SCROLL UP =========-->
+  <a href="" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-s-line scroll__icon"></i>
+  </a>
+  <!--========= SCROLL REVEAL =========--> 
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  
+</body>
+</html>
