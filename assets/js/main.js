@@ -104,7 +104,7 @@ subscribeButton.addEventListener("click", function() {
   const emailAddress = "patterns.socialaccess@example.com";
   const myname = emailInput.value;
   // Define the email subject and body
-  const emailSubject = "Contact Me";
+  const emailSubject = "Contact Us";
   const emailBody = `Hello sir, My name is ${myname}.%0D%0A`
                     +
                     `Email: Fill the detail%0D%0AMobile: Fill the detail%0D%0A` 
