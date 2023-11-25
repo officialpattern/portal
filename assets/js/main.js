@@ -107,8 +107,6 @@ subscribeButton.addEventListener("click", function() {
   const emailSubject = "Contact Us";
   const emailBody = `Hello sir, My name is ${myname}.%0D%0A`
                     +
-                    `Email: Fill the detail%0D%0AMobile: Fill the detail%0D%0A` 
-                    + 
                     `%0D%0A[write your message here, we will contact you soon]`;
 
   // Create a mailto link
